@@ -2,7 +2,7 @@
 const nextConfig = {
     output: 'export',
     reactStrictMode: true,
-    basePath: '/portfolio',
+    basePath: '/portfolio/',
 };
 /* module.exports = nextConfig*/
 export default nextConfig;
