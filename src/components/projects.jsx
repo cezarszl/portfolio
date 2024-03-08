@@ -1,6 +1,7 @@
 import Link from 'next/link.js';
 import { projectsData } from '../data/projects-data.js';
 
+
 const Projects = () => {
     return (
         <div id="projects-container">

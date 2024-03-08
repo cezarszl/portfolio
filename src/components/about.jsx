@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Skills from '@/components/skills';
 
 const About = () => {
     return (
@@ -23,6 +24,7 @@ const About = () => {
                     <Image src='/images/about.jpeg' className="profile-img" width={300} height={500} alt="A bear programming" />
                 </div>
             </div>
+            <Skills />
         </div>
     )
 }
